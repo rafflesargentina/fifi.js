@@ -1,0 +1,25 @@
+{
+  "name": "fifi.js",
+  "version": "1.0.0",
+  "description": "A jQuery plugin for editing content by transforming divs into input, select, or textarea fields.",
+  "main": "fifi.js",
+  "dependencies": {
+    "fixmyjs": "^2.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-fixmyjs": "^1.0.2",
+    "gulp-jshint": "^2.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-todo": "^6.0.0",
+    "gulp-uglify-es": "^1.0.4",
+    "jshint-stylish": "^2.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mario Patronelli",
+  "license": "MIT"
+}
