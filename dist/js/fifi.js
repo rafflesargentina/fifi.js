@@ -139,9 +139,12 @@
           
             if (wrapper) {
                 var input = wrapper.find('input, textarea, select');
+
+                if (input.val() !== '') {
+                    this.$original.html(input.val());
+                }
               
                 wrapper.replaceWith(this.$original);
-                this.$original.html(input.val());
             }
         },
         submit: function (data) {
